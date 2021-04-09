@@ -15,6 +15,6 @@ npm-debug.log
 # Build directories (Will be preserved by npm)
 # dist
 build
-/style.css
-/style.css.map
+# /style.css
+# /style.css.map
 .cache
