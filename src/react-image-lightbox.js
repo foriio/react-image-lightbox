@@ -829,7 +829,7 @@ class ReactImageLightbox extends Component {
     this.handleEnd(null);
     switch (this.pointerList.length) {
       case 1: {
-        event.preventDefault();
+        // event.preventDefault();
         this.decideMoveOrSwipe(this.pointerList[0]);
         break;
       }
@@ -851,7 +851,7 @@ class ReactImageLightbox extends Component {
         break;
       }
       case ACTION_SWIPE: {
-        event.preventDefault();
+        // event.preventDefault();
         this.handleSwipe(pointerList[0]);
         break;
       }
